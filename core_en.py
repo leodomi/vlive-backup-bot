@@ -399,7 +399,7 @@ def query_download_url():
     while True:
         target_url = input_dialog(
             title="Enter download URL",
-            text="Enter the address of the bulletin board to download.\n(Yes: https://www.vlive.tv/channel/B039DF/board/6118 )",
+            text="Enter the address of the bulletin board to download.\n(Exemple: https://www.vlive.tv/channel/B039DF/board/6118 )",
             ok_text="Confirm",
             cancel_text="Paste",
         ).run()
